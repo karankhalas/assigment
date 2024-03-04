@@ -1,0 +1,36 @@
+1). What is software? What is software engineering?
+Ans :- Software is considered to be collection of executable programming code, 
+         associated libraries and documentations. Software, when made for a specific requirement is called
+         software product. Engineering on the other hand, is all about developing products, 
+...         using well-defined, scientific principles and methods.
+
+
+2).Explain types of Software ?
+Ans :- The two main categories of software are application software and system software. 
+         An application is software that fulfills a specific need or performs tasks. 
+       System software is designed to run a computer's hardware and provides a platform for applications to run on top of.
+
+3).What is SDLC? Explain each phase of SDLC
+Ans  :-  SDLC consists of various phases, such as planning, design, coding,
+           testing, and deployment, while PDLC includes additional phases, such as market research,
+           product planning, and marketing.
+           
+            The 7 Phases Of SDLC (Software Development Life Cycle)
+	* Stage 1: Project Planning. ...
+	* Stage 2: Gathering Requirements & Analysis. ...
+	* Stage 3: Design. ...
+	* Stage 4: Coding or Implementation. ...
+	* Stage 5: Testing. ...
+	* Stage 6: Deployment. ...
+	* Stage 7: Maintenance.
+
+4).What is  DFD ?  Create a DFD diagram on Flipkart.
+ANS :- Data flow diagram (DFD) is a diagram being used frequently in software design. 
+          It visually represents the flow of data throughout processes in a given system. 
+         DFD shows the kind of information that will be input to and output from processes as well as where the data will be stored.
+
+5) What is Use Case Diagram?
+Ans :- Use-case diagrams describe the high-level functions and scope of a system.
+ These diagrams also identify the interactions between the system and its actors. 
+The use cases and actors in use-case diagrams describe 
+what the system does and how the actors use it, but not how the system operates internally.
