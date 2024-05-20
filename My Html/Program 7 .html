@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nine-one{
+            width: 10%;
+        }
+        span{
+            color: red;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body bgcolor="skyblue">
+    <form action="">
+        <table >
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="" id=""  pattern="[A-Z a-z]{5}"></td>
+            </tr>
+            <tr>
+                <td>Middle Name <span>*</span></td>
+                <td><input type="text" name="" id="" required></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td>
+                    <select name="" id="">
+                        <option value="" hidden>Select your course</option>
+                        <option value="">Frontend</option>
+                        <option value="">Backend</option>
+                        <option value="">Fullstack</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" id="">Male
+                    <input type="radio" name="gender" id="">Female
+                    <input type="radio" name="gender" id="">Others
+                </td>
+            </tr>
+            <tr>
+                <td>Hobby</td>
+                <td>
+                    <input type="checkbox" name="Hobby" id="">Sports
+                    <input type="checkbox" name="Hobby" id="">Music
+                    <input type="checkbox" name="Hobby" id="">Travelling
+                </td>
+            </tr>
+            <tr>
+                <td>Payment</td>
+                <td>
+                    <input type="radio" name="payment" id="">Cash
+                    <input type="radio" name="payment" id="">UPI
+                    <input type="radio" name="payment" id="">Card
+                </td>
+            </tr>
+            <tr>
+                <td>Phone No:</td>
+                <!-- <td><input type="number" name="" id=""></td> -->
+                <td>
+                    <input type="text" name="" id="nine-one" value="+91" >
+                    <input type="tel" name="" id="" pattern="[0-9]{10}">
+                </td>
+            </tr>
+           <tr>
+            <td>DOB</td>
+            <td>
+                <input type="datetime-local" name="" id="">
+            </td>
+           </tr>
+            <tr>
+                <td>address</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="" id="" cols="100" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td> Confirm- Password</td>
+                <td><input type="password" max></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <input type="submit" name="" id="">
+                    <input type="reset" name="" id="">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
